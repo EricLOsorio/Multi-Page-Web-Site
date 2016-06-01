@@ -1,0 +1,99 @@
+html {
+	background: url('matterhorn.jpg');
+	background-size:cover;
+}
+
+.wrapper {
+	position: relative;
+}
+
+
+.content {
+	position: absolute;
+	left:0;
+	right:0;
+	width:100%;
+
+}
+
+.name{
+	margin-bottom:0;
+}
+
+
+h2 {
+	margin-top:0;
+	float:right;
+}
+
+span {
+	text-decoration:underline;
+}
+
+.header {
+	position:relative;
+	margin-left:7%;
+	float:left;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color:black;
+
+}
+
+.container {
+	clear:both;
+	position:relative;
+width:100%;
+
+
+}
+
+li {
+
+	list-style-type: none;
+}
+
+.button {
+  display:block;
+  margin-bottom:2%;
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+	background-color:#081854;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+.project-list {
+	display:inline-block;
+	float:left;
+
+	margin:auto;
+}
+
+.form-input-list {
+	display:inline-block;
+	float:right;
+
+	margin-right: 3em;
+	}
+
+div .projects, div .forms-inputs {
+	color:black;
+	text-shadow: 1px 1px purple;
+
+}
